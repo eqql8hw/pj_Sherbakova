@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Castaway</title>
+  <link rel="stylesheet" href="/styles/styles.css">
+</head>
+<body class="page">
+  <div class="page__wrap">
+    <header class="header">
+      <div class="header__logo">Castaway</div>
+      <nav class="header__nav" aria-label="Primary">
+        <a class="header__link header__link--active" href="#">Home</a>
+        <a class="header__link" href="#">Episodes</a>
+        <a class="header__link" href="#">About</a>
+        <a class="header__link" href="#">Contact</a>
+      </nav>   
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero__media">
+          <img src="pictures/man.png" alt="Podcaster speaking into microphone">
+        </div>
+        <div class="hero__content">
+          <h1 class="hero__title">
+            Take your<br>
+            podcast to the<br>
+            <span class="hero__underline">next</span>
+            <span class="hero__title-strong">level</span>
+          </h1>
+          <div class="hero__listen">
+            <span class="hero__label">Listen on</span>
+            <div class="hero__platforms">
+              <a class="hero__platform" href="#">
+                <img src="pictures/spotify.png" alt="Listen on Spotify">
+              </a>
+              <a class="hero__platform" href="#">
+                <img src="pictures/pod.png" alt="Listen on Spotify">
+              </a>
+              <a class="hero__platform" href="#">
+                <img src="pictures/soundc.png" alt="Listen on Soundcloud">
+              </a>
+              <a class="hero__platform" href="#">
+                <img src="pictures/mic.png" alt="Listen on Apple Podcasts">
+              </a>
+              <a class="hero__platform" href="#">
+                <img src="pictures/antenna.png" alt="Listen on RSS">
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section episodes">
+        <div class="section__header">
+          <h2 class="section__title">Latest episodes</h2>
+          <a class="button button--primary" href="#">View all episodes</a>
+        </div>
+        <div class="episodes__list">
+          <article class="episode-card">
+            <div class="episode-card__media">
+              <img src="pictures/gear.png" alt="Audio gear">
+            </div>
+            <div class="episode-card__body">
+              <span class="episode-card__tag">Gear</span>
+              <p class="episode-card__meta">Episode 3</p>
+              <h3 class="episode-card__title">Should you get outboard audio gear?</h3>
+              <p class="episode-card__text">Is hardware really worth it when it comes to podcasting? The answer is...it depends. Here’s our reasons on why you might want to consider picking something up.</p>
+              <a class="button button--primary button--compact" href="#">View Episode Details</a>
+            </div>
+          </article>
+
+          <article class="episode-card">
+            <div class="episode-card__media">
+              <img src="pictures/epmic.png" alt="Microphone">
+            </div>
+            <div class="episode-card__body">
+              <span class="episode-card__tag">Tips &amp; tricks</span>
+              <p class="episode-card__meta">Episode 2</p>
+              <h3 class="episode-card__title">Mic tricks to take you to the next level</h3>
+              <p class="episode-card__text">Stop rolling with those default settings on your mic. These small tweaks will take you from sounding good to great.</p>
+              <a class="button button--primary button--compact" href="#">View Episode Details</a>
+            </div>
+          </article>
+
+          <article class="episode-card">
+            <div class="episode-card__media">
+              <img src="pictures/epman.png" alt="Podcast host speaking">
+            </div>
+            <div class="episode-card__body">
+              <span class="episode-card__tag">Gear</span>
+              <p class="episode-card__meta">Episode 1</p>
+              <h3 class="episode-card__title">The best microphone under $200</h3>
+              <p class="episode-card__text">With so many microphones on the market, how are you supposed to know what’s the best? Take a look at our top picks.</p>
+              <a class="button button--primary button--compact" href="#">View Episode Details</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section about">
+        <div class="about__text">
+          <span class="about__badge">→</span>
+          <p class="about__eyebrow">Meet your host</p>
+          <h2 class="about__title">Jacob Paulaner</h2>
+          <p class="about__description">Jacob has a background in audio engineering, and has been podcasting since the early days.</p>
+          <p class="about__description">He’s here to help you level up your game by sharing everything he’s learned along the way.</p>
+        </div>
+        <div class="about__photo">
+          <img src="pictures/host.png" alt="Host portrait">
+        </div>
+      </section>
+
+      <section class="section subscribe">
+        <div class="subscribe__card">
+          <div class="subscribe__content">
+            <div class="subscribe__copy">
+              <p class="subscribe__eyebrow">Email Newsletter</p>
+              <h2 class="subscribe__title">Subscribe<br>for updates</h2>
+            </div>
+            <form class="subscribe__form">
+              <label class="subscribe__field">
+                <input class="subscribe__input" type="text" name="name" placeholder="Name">
+              </label>
+              <label class="subscribe__field">
+                <input class="subscribe__input" type="email" name="email" placeholder="Email">
+              </label>
+              <button class="button button--primary subscribe__button" type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reviews">
+        <div class="reviews__grid">
+          <article class="review-card">
+            <div class="review-card__rating">
+              <span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span>
+            </div>
+            <p class="review-card__text">I can’t recommend this podcast enough</p>
+            <p class="review-card__author">Betty Lacey</p>
+          </article>
+          <article class="review-card">
+            <div class="review-card__rating">
+              <span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span>
+            </div>
+            <p class="review-card__text">Jacob is the best in the business</p>
+            <p class="review-card__author">Adam Driver</p>
+          </article>
+          <article class="review-card">
+            <div class="review-card__rating">
+              <span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span>
+            </div>
+            <p class="review-card__text">A wealth of audio knowledge</p>
+            <p class="review-card__author">Marcus Brown</p>
+          </article>
+          <article class="review-card">
+            <div class="review-card__rating" >
+              <span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span>
+            </div>
+            <p class="review-card__text">Every episode is a gem!</p>
+            <p class="review-card__author">Jessica Knowl</p>
+          </article>
+          <article class="review-card">
+            <div class="review-card__rating">
+              <span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span>
+            </div>
+            <p class="review-card__text">Whoa whoa, let me take some notes!</p>
+            <p class="review-card__author">Scott Adams</p>
+          </article>
+          <article class="review-card">
+            <div class="review-card__rating" >
+              <span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span>
+            </div>
+            <p class="review-card__text">I’ve upped my game considerably since I started listening</p>
+            <p class="review-card__author">Steven Blast</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__brand">
+        <div class="footer__logo">Castaway</div>
+        <div class="footer__socials">
+          <a class="footer__social" href="#" aria-label="Follow on Instagram">
+            <img src="./pictures/insta.png">
+          </a>
+          <a class="footer__social" href="#" aria-label="Follow on Twitter">
+            <img src="./pictures/faceb.png">
+          </a>
+          <a class="footer__social" href="#" aria-label="Follow on Facebook">
+             <img src="./pictures/twitter.png">
+          </a>
+        </div>
+      </div>
+      <div class="footer__links">
+        <div class="footer__menu">
+          <a class="footer__link" href="#">Home</a>
+          <a class="footer__link" href="#">About</a>
+          <a class="footer__link" href="#">Episodes</a>
+          <a class="footer__link" href="#">Contact</a>
+        </div>
+        <div class="footer__menu">
+          <a class="footer__link" href="#">Style Guide</a>
+          <a class="footer__link" href="#">Instructions</a>
+          <a class="footer__link" href="#">Changelog</a>
+          <a class="footer__link" href="#">Credit</a>
+          <a class="footer__link" href="#">Powered by Webflow</a>
+          <a class="footer__link" href="#">Licenses</a>
+        </div>
+      </div>
+      <div class="footer__platforms">
+        <a class="footer__platform" href="#">
+          <img src="pictures/spotify.png" alt="">
+        </a>
+        <a class="footer__platform" href="#">
+          <img src="pictures/pod.png" alt="">
+        </a>
+        <a class="footer__platform" href="#">
+          <img src="pictures/soundc.png" alt="">
+        </a>
+        <a class="footer__platform" href="#">
+          <img src="pictures/mic.png" alt="">
+        </a>
+        <a class="footer__platform" href="#">
+          <img src="pictures/antenna.png" alt="">
+        </a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
